@@ -1,0 +1,112 @@
+.Container{
+    display: flex;  
+    gap: 2rem;
+    margin: 2rem 0;
+    
+}
+
+.ContactForm{ 
+    padding: 2rem;
+    max-width: 550px;
+    min-height: 15rem;  
+    display: flex;  
+    gap: 2rem;
+    align-items: center;
+    min-width: 362px;
+    /* background-color: rgb(171, 199, 190);  */
+    background-color: #a1b6ab;     
+    border: 3px solid #5e6661;
+    /* color:  rgb(115, 146, 136); */
+    color: rgb(26, 24, 24);
+    font-size: 1.5rem;
+    margin-right: 20%;
+    
+}
+
+.Control{
+    margin-bottom: 1rem;
+    gap: 100px;
+    row-gap: 100px;
+    column-gap: 20px;
+    flex-direction: column;  
+}
+
+.Control input{
+    width: 95%; 
+    height: 2.5rem;
+}
+
+.ControlDescription textarea{
+    width: 95%;
+    height: 10rem;
+    color: rgb(16, 34, 90);
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+ 
+.ContactForm button { 
+    margin-right: 26%;   
+    margin-top: 1rem;
+    height: 3rem;
+    cursor: pointer;
+    width: 100px;
+    color:  rgb(12, 26, 21);
+    font-weight: bold;
+    border-radius: 7px;
+ 
+}
+
+.Image{ 
+    width: 50%;
+    margin: 2rem;
+    height: 20rem; 
+    background-image: url('../../Assest/Images/lawerLogo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ContactInfo {
+    color: rgb(26, 24, 24);
+    font-size: 1.5rem;
+    animation: 2s anim-lineUp ease-out ;  
+    font-weight: bold;
+    
+}
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  
+
+  @media only screen and (max-width: 500px) {
+    .ContactInfo {
+      display:none;
+    }
+    .Container .ContactForm{
+        width: 250px;
+        max-width: 250px;
+        min-width: 200px;
+        margin-right: 20px;
+    }
+
+    .Control input{
+        width: 55%; 
+        height: 1.5rem;
+    }
+    h1 {
+        font-size: 1.25rem;
+    }
+  } 

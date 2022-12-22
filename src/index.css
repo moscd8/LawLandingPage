@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  /* box-sizing: border-box; */
+  direction:rtl; 
+  /* max-width: 1100px;; */
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0; 
+  /* background-color: #f3f7fc; */
+  /* background-image: url('./Assest/Images/image4.jpg');
+  background-repeat: no-repeat;
+  background-size:auto; 
+   */
+
+   background-color: rgb(229, 235, 241);
+   
+   margin-right: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c292b;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #2c292b;
+}
+
+/* @media only screen and (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+}  */

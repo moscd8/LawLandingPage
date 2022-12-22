@@ -1,0 +1,35 @@
+.About{
+    border: 1px solid gray;
+    margin-top: 1rem; 
+    overflow: scroll;
+    text-align: center;
+    font-weight: bold;
+    background-color: aliceblue;
+    /* background-image: url('../../Assest/Images/image3.jpg');
+    background-repeat: no-repeat;
+    background-size:auto; */
+}
+
+.AboutOffice{
+    margin: 2rem;
+    margin-top: 1rem; 
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    border: 1px solid rgb(76, 164, 236); 
+}
+
+.Text{ 
+    margin: 10px 70px;
+}
+
+.Image{ 
+    width: 350px; 
+    height: 350px;
+    margin: 10px 70px;
+    /* width: 30rem; */
+    /* height: 20rem;  */
+    background-image: url('../../Assest/Images/lawerLogo.jpg');
+    background-repeat: no-repeat;
+    background-size:contain; 
+}
